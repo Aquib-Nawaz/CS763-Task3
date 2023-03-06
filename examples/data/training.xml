@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='give-to-student-anon/400/masked01.jpg' width='532' height='710'>
+    <box top='249' left='90' width='87' height='73'/>
+    <box top='210' left='295' width='92' height='86'/>
+  </image>
+  <image file='give-to-student-anon/400/masked02.jpg' width='469' height='626'>
+    <box top='143' left='126' width='75' height='52'/>
+    <box top='139' left='251' width='69' height='61'/>
+  </image>
+  <image file='give-to-student-anon/400/masked03.jpg' width='796' height='597'>
+    <box top='237' left='249' width='106' height='85'/>
+    <box top='283' left='437' width='100' height='79'/>
+  </image>
+  <image file='give-to-student-anon/400/masked04.jpg' width='776' height='583'>
+    <box top='51' left='2' width='213' height='205'/>
+    <box top='226' left='290' width='91' height='79'/>
+    <box top='396' left='472' width='103' height='85'/>
+  </image>
+  <image file='give-to-student-anon/401/masked01.jpg' width='576' height='1280'>
+    <box top='380' left='53' width='255' height='214'/>
+  </image>
+  <image file='give-to-student-anon/401/masked02.jpg' width='1104' height='1472'>
+    <box top='477' left='309' width='580' height='592'/>
+  </image>
+  <image file='give-to-student-anon/401/masked03.jpg' width='1104' height='1472'>
+    <box top='423' left='270' width='556' height='523'/>
+  </image>
+  <image file='give-to-student-anon/401/masked04.jpg' width='720' height='1280'>
+    <box top='291' left='75' width='436' height='370'/>
+  </image>
+  <image file='give-to-student-anon/402/masked01.jpg' width='768' height='1024'>
+    <box top='237' left='138' width='349' height='316'/>
+  </image>
+  <image file='give-to-student-anon/402/masked02.jpg' width='1280' height='720'>
+    <box top='228' left='384' width='397' height='310'/>
+  </image>
+  <image file='give-to-student-anon/402/masked03.jpg' width='1200' height='800'>
+    <box top='207' left='457' width='362' height='298'/>
+  </image>
+  <image file='give-to-student-anon/403/masked01.jpg' width='600' height='800'>
+    <box top='151' left='104' width='281' height='254'/>
+  </image>
+  <image file='give-to-student-anon/403/masked02.jpg' width='600' height='800'>
+    <box top='244' left='169' width='213' height='199'/>
+  </image>
+  <image file='give-to-student-anon/403/masked03.jpg' width='600' height='800'>
+    <box top='241' left='216' width='186' height='149'/>
+  </image>
+  <image file='give-to-student-anon/404/masked01.jpg' width='960' height='1280'>
+    <box top='618' left='340' width='349' height='318'/>
+  </image>
+  <image file='give-to-student-anon/404/masked02.jpg' width='970' height='1296'>
+    <box top='499' left='276' width='399' height='397'/>
+  </image>
+  <image file='give-to-student-anon/404/masked03.jpg' width='768' height='1024'>
+    <box top='317' left='274' width='279' height='258'/>
+  </image>
+  <image file='give-to-student-anon/405/masked01.jpg' width='1600' height='1200'>
+    <box top='377' left='161' width='354' height='296'/>
+    <box top='446' left='648' width='218' height='195'/>
+    <box top='466' left='948' width='270' height='198'/>
+  </image>
+  <image file='give-to-student-anon/406/masked01.jpg' width='738' height='1024'>
+    <box top='300' left='127' width='463' height='460'/>
+  </image>
+  <image file='give-to-student-anon/406/masked02.jpg' width='750' height='1000'>
+    <box top='208' left='174' width='423' height='424'/>
+  </image>
+  <image file='give-to-student-anon/406/masked03.jpg' width='750' height='563'>
+    <box top='163' left='243' width='169' height='150'/>
+  </image>
+  <image file='give-to-student-anon/408/masked01.jpg' width='720' height='1280'>
+    <box top='490' left='211' width='325' height='308'/>
+  </image>
+  <image file='give-to-student-anon/408/masked02.jpg' width='648' height='1152'>
+    <box top='448' left='104' width='403' height='388'/>
+  </image>
+  <image file='give-to-student-anon/408/masked03.jpg' width='864' height='1152'>
+    <box top='406' left='198' width='420' height='346'/>
+  </image>
+  <image file='give-to-student-anon/409/masked01.jpeg' width='961' height='1280'>
+    <box top='448' left='228' width='489' height='495'/>
+  </image>
+  <image file='give-to-student-anon/410/masked01.jpg' width='470' height='677'>
+    <box top='210' left='201' width='183' height='154'/>
+  </image>
+  <image file='give-to-student-anon/410/masked02.jpg' width='318' height='605'>
+    <box top='183' left='102' width='145' height='141'/>
+  </image>
+  <image file='give-to-student-anon/410/masked03.jpg' width='1280' height='960'>
+    <box top='370' left='234' width='191' height='153'/>
+    <box top='412' left='604' width='143' height='131'/>
+    <box top='284' left='834' width='295' height='271'/>
+  </image>
+  <image file='give-to-student-anon/410/masked04.jpg' width='1280' height='960'>
+    <box top='398' left='254' width='175' height='191'/>
+    <box top='414' left='570' width='155' height='135'/>
+    <box top='298' left='816' width='321' height='275'/>
+  </image>
+  <image file='give-to-student-anon/410/masked05.jpg' width='1280' height='960'>
+    <box top='404' left='248' width='195' height='165'/>
+    <box top='404' left='572' width='165' height='133'/>
+    <box top='284' left='818' width='309' height='227'/>
+  </image>
+  <image file='give-to-student-anon/410/masked06.jpg' width='1280' height='960'>
+    <box top='378' left='270' width='191' height='167'/>
+    <box top='382' left='630' width='157' height='125'/>
+    <box top='286' left='856' width='309' height='211'/>
+  </image>
+  <image file='give-to-student-anon/411/masked01.jpeg' width='960' height='1280'>
+    <box top='248' left='306' width='281' height='267'/>
+  </image>
+  <image file='give-to-student-anon/411/masked02.jpeg' width='960' height='1280'>
+    <box top='398' left='334' width='329' height='313'/>
+  </image>
+  <image file='give-to-student-anon/411/masked03.jpeg' width='960' height='1280'>
+    <box top='414' left='378' width='211' height='213'/>
+  </image>
+  <image file='give-to-student-anon/412/masked01.jpeg' width='720' height='960'>
+    <box top='250' left='238' width='297' height='283'/>
+  </image>
+  <image file='give-to-student-anon/412/masked02.jpeg' width='772' height='801'>
+    <box top='166' left='272' width='211' height='195'/>
+  </image>
+  <image file='give-to-student-anon/412/masked03.jpeg' width='782' height='795'>
+    <box top='174' left='314' width='207' height='207'/>
+  </image>
+  <image file='give-to-student-anon/412/masked04.jpeg' width='752' height='960'>
+    <box top='198' left='192' width='277' height='333'/>
+  </image>
+  <image file='give-to-student-anon/413/masked01.jpg' width='3468' height='4624'>
+    <box top='1368' left='1362' width='931' height='925'/>
+  </image>
+  <image file='give-to-student-anon/413/masked02.jpg' width='3468' height='4624'>
+    <box top='1176' left='1338' width='733' height='739'/>
+  </image>
+  <image file='give-to-student-anon/413/masked03.jpg' width='3468' height='4624'>
+    <box top='984' left='1278' width='685' height='625'/>
+  </image>
+  <image file='give-to-student-anon/414/masked01.jpg' width='576' height='768'>
+    <box top='247' left='117' width='320' height='341'/>
+  </image>
+  <image file='give-to-student-anon/414/masked02.jpg' width='576' height='768'>
+    <box top='103' left='150' width='248' height='245'/>
+  </image>
+  <image file='give-to-student-anon/414/masked03.jpg' width='576' height='768'>
+    <box top='160' left='64' width='237' height='263'/>
+  </image>
+  <image file='give-to-student-anon/415/masked01.jpg' width='1200' height='1600'>
+    <box top='320' left='466' width='337' height='369'/>
+  </image>
+  <image file='give-to-student-anon/415/masked02.jpg' width='1200' height='1600'>
+    <box top='552' left='402' width='371' height='323'/>
+  </image>
+  <image file='give-to-student-anon/415/masked03.jpg' width='1200' height='1599'>
+    <box top='570' left='324' width='583' height='539'/>
+  </image>
+  <image file='give-to-student-anon/416/masked01.jpg' width='461' height='1024'>
+    <box top='266' left='118' width='243' height='203'/>
+  </image>
+  <image file='give-to-student-anon/416/masked02.jpg' width='760' height='1024'>
+    <box top='118' left='132' width='421' height='459'/>
+  </image>
+  <image file='give-to-student-anon/416/masked03.jpg' width='766' height='1024'>
+    <box top='340' left='220' width='313' height='367'/>
+  </image>
+  <image file='give-to-student-anon/417/masked01.jpg' width='577' height='1024'>
+    <box top='288' left='182' width='327' height='367'/>
+  </image>
+  <image file='give-to-student-anon/417/masked02.jpg' width='577' height='1024'>
+    <box top='296' left='116' width='319' height='295'/>
+  </image>
+  <image file='give-to-student-anon/417/masked03.jpg' width='768' height='1024'>
+    <box top='268' left='208' width='325' height='367'/>
+  </image>
+  <image file='give-to-student-anon/418/masked01.jpg' width='1024' height='768'>
+    <box top='244' left='226' width='387' height='265'/>
+  </image>
+  <image file='give-to-student-anon/418/masked02.jpg' width='576' height='768'>
+    <box top='236' left='94' width='341' height='345'/>
+  </image>
+  <image file='give-to-student-anon/418/masked03.jpg' width='576' height='768'>
+    <box top='176' left='230' width='139' height='139'/>
+  </image>
+  <image file='give-to-student-anon/419/masked01.jpg' width='1024' height='768'>
+    <box top='166' left='386' width='297' height='333'/>
+  </image>
+  <image file='give-to-student-anon/419/masked02.jpg' width='694' height='925'>
+    <box top='362' left='192' width='347' height='415'/>
+  </image>
+  <image file='give-to-student-anon/419/masked03.jpg' width='694' height='925'>
+    <box top='342' left='184' width='349' height='405'/>
+  </image>
+  <image file='give-to-student-anon/420/masked01.jpg' width='3408' height='2556'>
+    <box top='402' left='1002' width='1633' height='1591'/>
+  </image>
+  <image file='give-to-student-anon/420/masked02.jpeg' width='961' height='1280'>
+    <box top='604' left='260' width='421' height='487'/>
+  </image>
+  <image file='give-to-student-anon/420/masked03.jpeg' width='720' height='1600'>
+    <box top='648' left='46' width='645' height='811'/>
+  </image>
+  <image file='give-to-student-anon/421/masked01.jpg' width='900' height='1600'>
+    <box top='446' left='186' width='483' height='555'/>
+  </image>
+  <image file='give-to-student-anon/421/masked02.jpg' width='1200' height='1600'>
+    <box top='526' left='378' width='391' height='381'/>
+  </image>
+  <image file='give-to-student-anon/421/masked03.jpg' width='899' height='1599'>
+    <box top='582' left='254' width='425' height='407'/>
+  </image>
+</images>
+</dataset>
