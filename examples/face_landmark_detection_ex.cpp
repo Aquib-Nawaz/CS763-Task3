@@ -48,12 +48,14 @@
 */
 
 
-#include <dlib/image_processing/frontal_face_detector.h>
-#include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
 #include <dlib/gui_widgets.h>
 #include <dlib/image_io.h>
 #include <iostream>
+#include <dlib/data_io.h>
+#include <dlib/string.h>
+#include <fstream>
+#include <dlib/svm_threaded.h>
 
 using namespace dlib;
 using namespace std;
@@ -79,7 +81,18 @@ int main(int argc, char** argv)
 
         // We need a face detector.  We will use this to get bounding boxes for
         // each face in an image.
-        frontal_face_detector detector = get_frontal_face_detector();
+        ifstream fin("masked.svm", ios::binary);
+        if (!fin)
+        {
+            cout << "Can't find a trained object detector file object_detector.svm. " << endl;
+            cout << "You need to train one using the -t option." << endl;
+            cout << "\nTry the -h option for more information." << endl;
+            return EXIT_FAILURE;
+
+        }
+        typedef scan_fhog_pyramid<pyramid_down<6> > image_scanner_type; 
+        object_detector<image_scanner_type> detector;
+        deserialize(detector, fin);
         // And we also need a shape_predictor.  This is the tool that will predict face
         // landmark positions given an image and face bounding box.  Here we are just
         // loading the model from the shape_predictor_68_face_landmarks.dat file you gave
@@ -90,6 +103,7 @@ int main(int argc, char** argv)
 
         image_window win, win_faces;
         // Loop over all the images provided on the command line.
+        const rgb_pixel color(0,255,0);
         for (int i = 2; i < argc; ++i)
         {
             cout << "processing image " << argv[i] << endl;
@@ -106,6 +120,7 @@ int main(int argc, char** argv)
             // Now we will go ask the shape_predictor to tell us the pose of
             // each face we detected.
             std::vector<full_object_detection> shapes;
+            std::vector<image_window::overlay_line> lines;
             for (unsigned long j = 0; j < dets.size(); ++j)
             {
                 full_object_detection shape = sp(img, dets[j]);
@@ -115,19 +130,24 @@ int main(int argc, char** argv)
                 // You get the idea, you can get all the face part locations if
                 // you want them.  Here we just store them in shapes so we can
                 // put them on the screen.
+                for (int i=0; i<shape.num_parts()-1; i++){
+                    lines.push_back(image_window::overlay_line(shape.part(i), shape.part(i+1), color));
+                }
+                // lines.push_back(image_window::overlay_line(shape.part(shape.num_parts()-1), shape.part(0),color));
                 shapes.push_back(shape);
             }
 
             // Now let's view our face poses on the screen.
             win.clear_overlay();
             win.set_image(img);
-            win.add_overlay(render_face_detections(shapes));
+            win.add_overlay(lines);
+            win.add_overlay(dets);
 
             // We can also extract copies of each face that are cropped, rotated upright,
             // and scaled to a standard size as shown here:
-            dlib::array<array2d<rgb_pixel> > face_chips;
-            extract_image_chips(img, get_face_chip_details(shapes), face_chips);
-            win_faces.set_image(tile_images(face_chips));
+            // dlib::array<array2d<rgb_pixel> > face_chips;
+            // extract_image_chips(img, get_face_chip_details(shapes), face_chips);
+            // win_faces.set_image(tile_images(face_chips));
 
             cout << "Hit enter to process the next image..." << endl;
             cin.get();

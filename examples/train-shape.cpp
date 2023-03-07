@@ -1,20 +1,3 @@
-// The contents of this file are in the public domain. See LICENSE_FOR_EXAMPLE_PROGRAMS.txt
-/*
-
-    This example program shows how to use dlib's implementation of the paper:
-        One Millisecond Face Alignment with an Ensemble of Regression Trees by
-        Vahid Kazemi and Josephine Sullivan, CVPR 2014
-    
-    In particular, we will train a face landmarking model based on a small dataset 
-    and then evaluate it.  If you want to visualize the output of the trained
-    model on some images then you can run the face_landmark_detection_ex.cpp
-    example program with sp.dat as the input model.
-
-    It should also be noted that this kind of model, while often used for face
-    landmarking, is quite general and can be used for a variety of shape
-    prediction tasks.  But here we demonstrate it only on a simple face
-    landmarking task.
-*/
 
 
 #include <dlib/image_processing.h>
