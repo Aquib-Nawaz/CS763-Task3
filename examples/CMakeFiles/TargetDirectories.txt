@@ -1,0 +1,17 @@
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/package.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/package_source.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/edit_cache.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/rebuild_cache.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/list_install_components.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/install.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/install/local.dir
+/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/install/strip.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/dlib.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/package.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/package_source.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/edit_cache.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/rebuild_cache.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/list_install_components.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/install.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/install/local.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/CMakeFiles/install/strip.dir

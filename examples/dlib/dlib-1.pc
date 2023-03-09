@@ -1,0 +1,8 @@
+libdir=/usr/local/lib
+includedir=/usr/local/include
+
+Name: dlib
+Description: Numerical and networking C++ library
+Version: 19.24.99
+Libs: -L${libdir} -ldlib /usr/lib/x86_64-linux-gnu/libavdevice.so /usr/lib/x86_64-linux-gnu/libavfilter.so /usr/lib/x86_64-linux-gnu/libavformat.so /usr/lib/x86_64-linux-gnu/libavcodec.so /usr/lib/x86_64-linux-gnu/libswresample.so /usr/lib/x86_64-linux-gnu/libswscale.so /usr/lib/x86_64-linux-gnu/libavutil.so
+Cflags: -I${includedir}  -I/usr/include/x86_64-linux-gnu

@@ -1,0 +1,57 @@
+Determining if the function cblas_ddot exists failed with the following output:
+Change Dir: /home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-Epi91c
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b3f87/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b3f87.dir/build.make CMakeFiles/cmTC_b3f87.dir/build
+gmake[1]: Entering directory '/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-Epi91c'
+Building C object CMakeFiles/cmTC_b3f87.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cblas_ddot -o CMakeFiles/cmTC_b3f87.dir/CheckFunctionExists.c.o -c /home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-Epi91c/CheckFunctionExists.c
+Linking C executable cmTC_b3f87
+/snap/cmake/1216/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3f87.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cblas_ddot CMakeFiles/cmTC_b3f87.dir/CheckFunctionExists.c.o -o cmTC_b3f87 
+/usr/bin/ld: CMakeFiles/cmTC_b3f87.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cblas_ddot'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_b3f87.dir/build.make:99: cmTC_b3f87] Error 1
+gmake[1]: Leaving directory '/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-Epi91c'
+gmake: *** [Makefile:127: cmTC_b3f87/fast] Error 2
+
+
+
+Determining if the function sgesv exists failed with the following output:
+Change Dir: /home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-7MFVve
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb735/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb735.dir/build.make CMakeFiles/cmTC_cb735.dir/build
+gmake[1]: Entering directory '/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-7MFVve'
+Building C object CMakeFiles/cmTC_cb735.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv -o CMakeFiles/cmTC_cb735.dir/CheckFunctionExists.c.o -c /home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-7MFVve/CheckFunctionExists.c
+Linking C executable cmTC_cb735
+/snap/cmake/1216/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb735.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv CMakeFiles/cmTC_cb735.dir/CheckFunctionExists.c.o -o cmTC_cb735 
+/usr/bin/ld: CMakeFiles/cmTC_cb735.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgesv'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cb735.dir/build.make:99: cmTC_cb735] Error 1
+gmake[1]: Leaving directory '/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-7MFVve'
+gmake: *** [Makefile:127: cmTC_cb735/fast] Error 2
+
+
+
+Determining if the function sgesv_ exists failed with the following output:
+Change Dir: /home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-erkNbb
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8bb8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8bb8d.dir/build.make CMakeFiles/cmTC_8bb8d.dir/build
+gmake[1]: Entering directory '/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-erkNbb'
+Building C object CMakeFiles/cmTC_8bb8d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgesv_ -o CMakeFiles/cmTC_8bb8d.dir/CheckFunctionExists.c.o -c /home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-erkNbb/CheckFunctionExists.c
+Linking C executable cmTC_8bb8d
+/snap/cmake/1216/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bb8d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgesv_ CMakeFiles/cmTC_8bb8d.dir/CheckFunctionExists.c.o -o cmTC_8bb8d 
+/usr/bin/ld: CMakeFiles/cmTC_8bb8d.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgesv_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_8bb8d.dir/build.make:99: cmTC_8bb8d] Error 1
+gmake[1]: Leaving directory '/home/admin1/Downloads/CS763-Task3/examples/CMakeFiles/CMakeScratch/TryCompile-erkNbb'
+gmake: *** [Makefile:127: cmTC_8bb8d/fast] Error 2
+
+
+

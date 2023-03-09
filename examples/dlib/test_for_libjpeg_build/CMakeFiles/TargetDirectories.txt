@@ -1,0 +1,3 @@
+/home/admin1/Downloads/CS763-Task3/examples/dlib/test_for_libjpeg_build/CMakeFiles/libjpeg_test.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/test_for_libjpeg_build/CMakeFiles/edit_cache.dir
+/home/admin1/Downloads/CS763-Task3/examples/dlib/test_for_libjpeg_build/CMakeFiles/rebuild_cache.dir
