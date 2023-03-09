@@ -73,7 +73,7 @@ int main(int argc, char** argv) try
     trainer.set_learning_rate(0.1);
     trainer.be_verbose();
     trainer.set_synchronization_file("temp_model_0x.dat", std::chrono::minutes(5));
-    trainer.set_iterations_without_progress_threshold(300);
+    trainer.set_iterations_without_progress_threshold(40);
 
 
     // Now let's train the network.  We are going to use mini-batches of 150

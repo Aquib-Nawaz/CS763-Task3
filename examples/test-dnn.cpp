@@ -30,7 +30,8 @@ int main(int argc, char** argv) try
     }
 
 
-    net_type net;
+    net_type net; 
+    net.subnet().layer_details().set_num_filters(4);
     deserialize(argv[1]) >> net;  
 
     image_window win;
